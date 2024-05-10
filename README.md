@@ -9,5 +9,6 @@ Currently, two official plugins are available:
 
 ## Demo
 
-Check out the live demo [here]([https://i-phone-15-apple-website-dyrrov7jk-muasya-silas-projects.vercel.app/])!
+Check out the live demo [here](https://i-phone-15-apple-website-dyrrov7jk-muasya-silas-projects.vercel.app/)!
+
 
