@@ -1,3 +1,10 @@
+## Demo
+
+<iframe src="https://giphy.com/embed/hXIFj18RB2uaj5HQj5" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/mafs-married-at-first-sight-marriedau-australia-hXIFj18RB2uaj5HQj5">via GIPHY</a></p>
+
+Check out the live demo [here](https://i-phone-15-apple-website-dyrrov7jk-muasya-silas-projects.vercel.app/)!
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -6,9 +13,5 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Demo
-
-Check out the live demo [here](https://i-phone-15-apple-website-dyrrov7jk-muasya-silas-projects.vercel.app/)!
 
 
