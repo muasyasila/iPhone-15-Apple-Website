@@ -1,9 +1,9 @@
 ## Demo
-<div id="header" align="center">
-https://giphy.com/gifs/mafs-married-at-first-sight-marriedau-australia-hXIFj18RB2uaj5HQj5
-</div>
+<div id="header" align="center">![giphy (15)](https://github.com/muasyasila/iPhone-15-Apple-Website/assets/111142846/b581fc10-f741-4262-9d74-6c7a7da6d873)
 
-Check out the live demo [here](https://i-phone-15-apple-website-dyrrov7jk-muasya-silas-projects.vercel.app/)!
+
+
+Check out the live demo [here](https://i-phone-15-apple-website-dyrrov7jk-muasya-silas-projects.vercel.app/)! </div>
 
 
 # React + Vite
