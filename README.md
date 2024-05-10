@@ -1,5 +1,6 @@
 ## Demo
-<div id="header" align="center">![giphy (15)](https://github.com/muasyasila/iPhone-15-Apple-Website/assets/111142846/b581fc10-f741-4262-9d74-6c7a7da6d873)
+<div id="header" align="center">
+![giphy (15)](https://github.com/muasyasila/iPhone-15-Apple-Website/assets/111142846/3319d4ec-6b33-44cd-aad5-8441c56384c7)
 
 
 
