@@ -1,6 +1,7 @@
 ## Demo
-
-<iframe src="https://giphy.com/embed/hXIFj18RB2uaj5HQj5" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/mafs-married-at-first-sight-marriedau-australia-hXIFj18RB2uaj5HQj5">via GIPHY</a></p>
+<div id="header" align="center">
+https://giphy.com/gifs/mafs-married-at-first-sight-marriedau-australia-hXIFj18RB2uaj5HQj5
+</div>
 
 Check out the live demo [here](https://i-phone-15-apple-website-dyrrov7jk-muasya-silas-projects.vercel.app/)!
 
