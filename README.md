@@ -1,6 +1,6 @@
 ## Demo
 <div id="header" align="center">
-![giphy (15)](https://github.com/muasyasila/iPhone-15-Apple-Website/assets/111142846/3319d4ec-6b33-44cd-aad5-8441c56384c7)
+<img src="https://media4.giphy.com/media/7J4P7cUur2DlErijp3/giphy.gif?cid=790b761188175bd04c35a1eaf2cbdc47e965c746b3829394&rid=giphy.gif&ct=g" alt="Gif" width="400" height="auto">
 
 
 
