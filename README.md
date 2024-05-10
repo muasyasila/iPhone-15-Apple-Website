@@ -5,7 +5,7 @@
 
 
 
-Check out the live demo [here](https://i-phone-15-apple-website-dyrrov7jk-muasya-silas-projects.vercel.app/)! </div>
+Check out the live demo [here](https://i-phone-15-apple-website.vercel.app/)! </div>
 
 
 # React + Vite
