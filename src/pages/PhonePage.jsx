@@ -1,7 +1,7 @@
 // src/pages/iPhonePage.jsx
 import React from 'react';
 
-const iPhonePage = () => {
+const IphonePage = () => {
   return (
     <div>
       <h1>iPhone Page</h1>
@@ -10,4 +10,4 @@ const iPhonePage = () => {
   );
 };
 
-export default iPhonePage;
+export default IphonePage;

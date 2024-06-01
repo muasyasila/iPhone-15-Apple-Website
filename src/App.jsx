@@ -5,7 +5,7 @@ import Navbar from './components/Navbar';
 import HomePage from './pages/HomePage';
 import StorePage from './pages/StorePage';
 import MacPage from './pages/MacPage';
-import iPhonePage from './pages/iPhonePage';
+import PhonePage from './pages/PhonePage';
 import SupportPage from './pages/SupportPage';
 
 const App = () => {
@@ -16,7 +16,7 @@ const App = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/store" element={<StorePage />} />
         <Route path="/mac" element={<MacPage />} />
-        <Route path="/iphone" element={<iPhonePage />} />
+        <Route path="/iphone" element={<PhonePage />} />
         <Route path="/support" element={<SupportPage />} />
       </Routes>
     </Router>

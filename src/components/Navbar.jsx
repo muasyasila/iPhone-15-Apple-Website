@@ -1,6 +1,6 @@
 // src/components/Navbar.jsx
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { appleImg, bagImg, searchImg } from '../utils';
 import { navLists } from '../constants';
 
@@ -8,18 +8,20 @@ const Navbar = () => {
   return (
     <header className="w-full py-5 sm:px-10 px-5 flex justify-between items-center">
       <nav className="flex w-full screen-max-width">
-        <Link to="/">
+        <NavLink to="/" className="flex items-center">
           <img src={appleImg} alt="Apple" width={14} height={18} />
-        </Link>
+        </NavLink>
         <div className="flex flex-1 justify-center max-sm:hidden">
           {navLists.map((nav) => (
-            <Link
+            <NavLink
               key={nav}
               to={`/${nav.toLowerCase()}`}
-              className="px-5 text-sm cursor-pointer text-gray hover:text-white transition-all"
+              className={({ isActive }) =>
+                `px-5 text-sm cursor-pointer transition-all ${isActive ? 'text-white underline' : 'text-gray hover:text-white'}`
+              }
             >
               {nav}
-            </Link>
+            </NavLink>
           ))}
         </div>
         <div className="flex items-baseline gap-7 max-sm:justify-end max-sm:flex-1">
