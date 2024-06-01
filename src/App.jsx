@@ -1,21 +1,26 @@
-import Navbar from "./components/Navbar"
-import Hero from "./components/Hero"
-import Highlights from "./components/Highlights"
-import Model from "./components/Model"
-import Features from "./components/Features"
-import CardCarousel from './components/CardCarousel';
+// src/App.jsx
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import HomePage from './pages/HomePage';
+import StorePage from './pages/StorePage';
+import MacPage from './pages/MacPage';
+import iPhonePage from './pages/iPhonePage';
+import SupportPage from './pages/SupportPage';
 
 const App = () => {
   return (
-    <main className="bg-black">
-    <Navbar />
-     <Hero />
-     <Highlights />
-     <Model />
-     <CardCarousel />
-     <Features />
-    </main>
-  )
-}
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/store" element={<StorePage />} />
+        <Route path="/mac" element={<MacPage />} />
+        <Route path="/iphone" element={<iPhonePage />} />
+        <Route path="/support" element={<SupportPage />} />
+      </Routes>
+    </Router>
+  );
+};
 
-export default App
+export default App;

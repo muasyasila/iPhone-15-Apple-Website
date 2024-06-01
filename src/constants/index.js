@@ -34,8 +34,6 @@ export const cards = [
   { id: 9, title: 'Item 9', description: 'Short description 2', price: '$100', image: image9 },
   { id: 10, title: 'Item 10', description: 'Short description 2', price: '$100', image: image10 },
   { id: 11, title: 'Item 11', description: 'Short description 2', price: '$100', image: image11 },
- 
-  // Add more cards as needed
 ];
   
   export const navLists = ["Store", "Mac", "iPhone", "Support"];
