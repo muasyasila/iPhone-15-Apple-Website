@@ -1,40 +1,13 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useRef } from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { cards } from '../constants/index.js';
 import { CustomPrevArrow, CustomNextArrow } from './CustomArrows';
 import './CardCarousel.css';
-import gsap from 'gsap';
 
 const CardCarousel = () => {
   const cardRefs = useRef([]);
-
-  useEffect(() => {
-    cardRefs.current.forEach((card, index) => {
-      if (card) {
-        card.addEventListener('mouseenter', () => {
-          gsap.to(card, { scale: 1.05, duration: 0.3, ease: 'power1.inOut' });
-        });
-        card.addEventListener('mouseleave', () => {
-          gsap.to(card, { scale: 1, duration: 0.3, ease: 'power1.inOut' });
-        });
-      }
-    });
-
-    return () => {
-      cardRefs.current.forEach((card) => {
-        if (card) {
-          card.removeEventListener('mouseenter', () => {
-            gsap.to(card, { scale: 1.05, duration: 0.3, ease: 'power1.inOut' });
-          });
-          card.removeEventListener('mouseleave', () => {
-            gsap.to(card, { scale: 1, duration: 0.3, ease: 'power1.inOut' });
-          });
-        }
-      });
-    };
-  }, []);
 
   const settings = {
     dots: true,

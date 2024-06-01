@@ -18,6 +18,10 @@
     transform: scale(1.2);
   }
   /* Custom Dot Styles */
+.slick-dots{
+  padding-bottom: 10px;
+}
+
 .slick-dots li button:before {
     color: grey; /* Set the color of the dots to grey */
   }
@@ -25,9 +29,9 @@
   .slick-dots li.slick-active button:before {
     color: white; /* Set the color of the active dot to white */
   }
-  /* Hover animation */
+  /* Hover animation 
 .relative:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease;
   }
-  
+  */
