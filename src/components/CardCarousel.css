@@ -1,0 +1,20 @@
+.custom-arrow {
+    z-index: 2;
+  }
+  
+  .custom-prev-arrow {
+    left: 5px !important;
+  }
+  
+  .custom-next-arrow {
+    right: 5px !important;
+  }
+  
+  .custom-arrow svg {
+    transition: transform 0.3s;
+  }
+  
+  .custom-arrow:hover svg {
+    transform: scale(1.2);
+  }
+  

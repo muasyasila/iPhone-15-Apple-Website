@@ -3,7 +3,7 @@ import Hero from "./components/Hero"
 import Highlights from "./components/Highlights"
 import Model from "./components/Model"
 import Features from "./components/Features"
-
+import CardCarousel from './components/CardCarousel';
 
 const App = () => {
   return (
@@ -12,6 +12,7 @@ const App = () => {
      <Hero />
      <Highlights />
      <Model />
+     <CardCarousel />
      <Features />
     </main>
   )
