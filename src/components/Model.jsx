@@ -56,7 +56,7 @@ const Model = () => {
     <section className="common-padding">
       <div className="screen-max-width">
         <h1 id="heading" className="section-heading">
-          Take a closer look.
+          Take a closer look. Your 3D View.
         </h1>
 
         <div className="flex flex-col items-center mt-5">

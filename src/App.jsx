@@ -8,6 +8,7 @@ import MacPage from './pages/MacPage';
 import PhonePage from './pages/PhonePage';
 import SupportPage from './pages/SupportPage';
 
+
 const App = () => {
   return (
     <Router>
